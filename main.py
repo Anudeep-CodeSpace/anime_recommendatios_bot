@@ -65,6 +65,6 @@ async def send_message(chat_id, text):
 
 def emoji(genre):
 	return {
-		"Romance": "💖",
-        "Isekai": "🌌"
+		"romance": "💖",
+        	"isekai": "🌌"
 	}.get(genre, "🎬")
