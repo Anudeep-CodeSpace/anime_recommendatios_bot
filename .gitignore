@@ -1,0 +1,19 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# FastAPI logs or data
+*.db
+db.json
+
+# Environment
+.env
+venv/
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+
+# ngrok
+ngrok*
